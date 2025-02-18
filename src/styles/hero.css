@@ -3,6 +3,7 @@
   height: 85vh;
   margin-top: 0;
   display: flex;
+  overflow: hidden;
 }
 
 .halfContainer {
@@ -21,6 +22,15 @@
   align-items: center;
   padding: 10px;
 }
+
+.imageContainer{
+  width: 600px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .content-upper {
   margin-top: 40px;
   width: 100%;
@@ -36,22 +46,21 @@
 }
 
 #name {
-  color: #4c8cb5;
+  color: #17a2b8;
+  font-weight: bolder;
 }
 
 .img-content {
-  width: 500px;
-  height: 500px;
+  width: 100%;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: start;
 }
 
 .img-content img {
-  width: 400px;
-  height: 400px;
-  position: center;
-  border-radius: 100px;
+  width: 100%;
+  height: 100%;
 }
 
 p {

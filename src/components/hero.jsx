@@ -1,5 +1,5 @@
 import "./../styles/hero.css";
-import dog from "./../assets/images/smileDog.gif";
+import gadiana from "./../assets/images/gadiana1.png";
 import Button from "./button";
 
 export default function navigation() {
@@ -28,12 +28,12 @@ export default function navigation() {
           </div>
         </div>
       </div>
-      <div className="halfContainer">
-        <div className="contentContainer">
+      <div className="imageContainer">
+        
           <div className="img-content">
-            <img src={dog} alt="Logo" />
+            <img src={gadiana} alt="Logo" />
           </div>
-        </div>
+        
       </div>
     </div>
   );
