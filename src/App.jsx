@@ -9,7 +9,6 @@ function App() {
       <Navigation />
       <Hero/>
       <About/>
-      <About/>
     </>
   );
 }
